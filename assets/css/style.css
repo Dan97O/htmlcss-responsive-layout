@@ -53,7 +53,7 @@ li{
 
 .debug .row{
     background-color: aqua;
-    height: 100%;
+    height: 500px;
 }
 
 .debug .col_12{
@@ -61,14 +61,14 @@ li{
 }
 
 .debug .testimonial{
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-color: rgb(226, 226, 30);
     border: 1px dashed;
 }
 
 .debug .expert_partners{
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-color: rgb(30, 226, 183);
     border: 1px dashed;
@@ -126,6 +126,7 @@ li{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+    justify-content: space-between;
 }
 
 .justify_content_center{
@@ -335,7 +336,7 @@ li{
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .link_header ul{
         display: none;
     }
@@ -413,7 +414,8 @@ li{
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 1rem 0;
+    margin: 10px -10px;
+    padding-bottom: 1rem;
 }
 
 .get_a_demo{
@@ -477,6 +479,7 @@ img.pt_2.phone {
     background-color: var(--light);
     padding-bottom: 2rem;
     border-radius: 40px;
+    margin-bottom: 4rem;
 }
 
 .testimonial{
@@ -511,12 +514,45 @@ img.pt_2.phone {
 }
 
 
+.benefits{
+    background-color: var(--primary);
+}
+
+.background_white{
+    background-color: var(--light);
+    color: var(--primary);
+    border-radius: 30px;
+    margin: 1rem -10px;
+    padding-bottom: 2rem;
+}
+
+.numbers{
+    padding: 1.5rem 0;
+}
+
+.numbers .number{
+    font-size: 40px;
+}
 
 
+.bt_more{
+    padding: 8px 40px;
+    background-color: var(--primary);
+    border-radius: 25px;
+    color: var(--light);
+    margin-top: 2rem;
+}
+
+.benefit .black{
+    margin-bottom: 2rem;
+}
 
 
+/* 
 
+code here
 
+ */
 
 
 
