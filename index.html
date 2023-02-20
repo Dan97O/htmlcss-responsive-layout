@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Responsive Layout</title>
 </head>
 
@@ -17,9 +18,23 @@
 
 
 <header id="site_header">
-    <div class="container d_flex .space_between">
-        <div class="logo"></div>
-        <div class="link_header"></div>
+    <div class="container d_flex">
+        <div class="logo">
+            <img class="image_logo" src="./assets/img/logo.png" alt="Logo">
+        </div>
+        <div class="link_header">
+            <nav>
+                <ul class="d_flex align_center">
+                    <li> <a href="#">Planning</a> </li>
+                    <li class="ml_2"> <a href="#">Testimonials</a> </li>
+                    <li class="ml_2"> <a href="#">Features</a> </li>
+                    <li class="ml_2"> <a href="#">About Us</a> </li>
+                    <li class="ml_2 bt_header"> <a href="#">
+                        <span>Get Started</span> </a> </li>
+                </ul>
+                <div class="d_none"> <a href="#" ><i class="white fa-regular fa-square-caret-down  fa-2x"></i></a>  </div>
+            </nav>
+        </div>
     </div>
 </header>
 <!-- /#site_header -->
