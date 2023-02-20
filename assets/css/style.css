@@ -22,6 +22,7 @@
 .debug .container{
     background-color: #9792e4;
     height: 100%;
+
 }
 
 .debug .logo{
@@ -34,7 +35,14 @@
     height: 100%;
 }
 
+.debug .row{
+    background-color: aqua;
+    height: 500px;
+}
 
+.debug .col_12{
+    border: 1px dashed;
+}
 
 
 
@@ -69,15 +77,182 @@
     justify-content: space-between;
 }
 
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
 
+.col_1{
+    width: calc(100% /12 * 1);
+}
 
+.col_2{
+    width: calc(100% /12 * 2);
+}
 
+.col_3{
+    width: calc(100% /12 * 3);
+}
 
+.col_4{
+    width: calc(100% /12 * 4);
+}
 
+.col_5{
+    width: calc(100% /12 * 5);
+}
+
+.col_6{
+    width: 50%;
+}
+
+.col_7{
+    width: calc(100% /12 * 7);
+}
+
+.col_8{
+    width: calc(100% /12 * 8);
+}
+
+.col_9{
+    width: calc(100% /12 * 9);
+}
+
+.col_10{
+    width: calc(100% /12 * 10);
+}
+
+.col_11{
+    width: calc(100% /12 * 11);
+}
+
+.col_12{
+    width: calc(100% /12 * 12);
+}
 
 
 
 /* #endregion Utilities */
+
+
+/* #region @Media */
+@media screen and (min-width: 768px) 
+{
+
+.col_md_1{
+    width: calc(100% /12 * 1);
+}
+
+.col_md_2{
+    width: calc(100% /12 * 2);
+}
+
+.col_md_3{
+    width: calc(100% /12 * 3);
+}
+
+.col_md_4{
+    width: calc(100% /12 * 4);
+}
+
+.col_md_5{
+    width: calc(100% /12 * 5);
+}
+
+.col_md_6{
+    width: 50%;
+}
+
+.col_md_7{
+    width: calc(100% /12 * 7);
+}
+
+.col_md_8{
+    width: calc(100% /12 * 8);
+}
+
+.col_md_9{
+    width: calc(100% /12 * 9);
+}
+
+.col_md_10{
+    width: calc(100% /12 * 10);
+}
+
+.col_md_11{
+    width: calc(100% /12 * 11);
+}
+
+.col_md_12{
+    width: calc(100% /12 * 12);
+}
+
+}
+
+
+@media screen and (min-width: 1200px) 
+{
+
+.col_lg_1{
+    width: calc(100% /12 * 1);
+}
+
+.col_lg_2{
+    width: calc(100% /12 * 2);
+}
+
+.col_lg_3{
+    width: calc(100% /12 * 3);
+}
+
+.col_lg_4{
+    width: calc(100% /12 * 4);
+}
+
+.col_lg_5{
+    width: calc(100% /12 * 5);
+}
+
+.col_lg_6{
+    width: 50%;
+}
+
+.col_lg_7{
+    width: calc(100% /12 * 7);
+}
+
+.col_lg_8{
+    width: calc(100% /12 * 8);
+}
+
+.col_lg_9{
+    width: calc(100% /12 * 9);
+}
+
+.col_lg_10{
+    width: calc(100% /12 * 10);
+}
+
+.col_lg_11{
+    width: calc(100% /12 * 11);
+}
+
+.col_lg_12{
+    width: calc(100% /12 * 12);
+}
+
+}
+
+
+
+
+/* #endregion @Media */
+
+
+
+
 
 /* #region Header */
 
@@ -91,7 +266,9 @@
     width: 70%;
 }
 
-
+.row{
+    margin: 2rem 0;
+}
 
 
 /* #endregion Header */
