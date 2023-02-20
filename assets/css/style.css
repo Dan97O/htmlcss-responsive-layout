@@ -44,9 +44,19 @@
     border: 1px dashed;
 }
 
+.debug .testimonial{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(226, 226, 30);
+    border: 1px dashed;
+}
 
-
-
+.debug .expert_partners{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(30, 226, 183);
+    border: 1px dashed;
+}
 
 
 
@@ -273,3 +283,35 @@
 
 /* #endregion Header */
 
+
+
+
+
+
+
+
+
+/* #region Main */
+
+.planning{
+    background-color: var(--primary);
+}
+
+
+.testimonial{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region Main */
