@@ -53,7 +53,7 @@ li{
 
 .debug .row{
     background-color: aqua;
-    height: 500px;
+    height: 100%;
 }
 
 .debug .col_12{
@@ -418,9 +418,8 @@ li{
 }
 
 .bt_app_store{
-    padding: 8px 50px;
+    padding: 8px 25px;
     background-color: var(--secondary);
-   
     border-radius: 25px;
 }
 
@@ -455,6 +454,35 @@ img.pt_2.phone {
 .planning{
     background-color: var(--primary);
 }
+
+.planning .row{
+    margin: 2rem 5rem;
+}
+
+
+.img_planning_1{
+    padding-top: 2rem;
+    width: 400px;
+
+
+}
+
+.img_planning_2{
+    width: 400px;
+    margin-top: 8rem;
+    background-color: var(--light);
+    padding-bottom: 2rem;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 .testimonial{
