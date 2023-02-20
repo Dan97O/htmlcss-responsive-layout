@@ -101,6 +101,12 @@
     margin: 0 -1rem;
 }
 
+.justify_content_center{
+    justify-content: center;
+}
+
+
+
 .col_1{
     width: calc(100% /12 * 1);
 }
