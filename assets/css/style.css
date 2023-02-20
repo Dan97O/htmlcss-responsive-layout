@@ -22,6 +22,7 @@
 .debug .container{
     background-color: #9792e4;
     height: 100%;
+    width: 80%;
 
 }
 
@@ -66,7 +67,10 @@
     margin-top: 2rem;
 }
 
-
+.debug .call_to_action .text_main_bottom{
+    height: 50px;
+    background-color: antiquewhite;
+}
 
 
 
@@ -315,7 +319,11 @@
     flex-wrap: wrap;
 }
 
-
+.text_main_bottom{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
 
 
 
