@@ -139,14 +139,36 @@ li{
     width: 50%;
 }
 
-.ml_2{
+.pl_1{
+    padding-left: 1rem;
+}
+
+.pl_2{
     padding-left: 2rem;
 }
+
+.pt_2
+{
+    padding-top: 2rem;
+}
+
+.ptl_1{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
 
 .white{
     color: var(--light);
 }
 
+.black{
+    color: black;
+}
+
+[class^="col_"]{
+    padding: 0 1rem;
+}
 
 .col_1{
     width: calc(100% /12 * 1);
@@ -371,10 +393,6 @@ li{
     color: var(--footer);
 }
 
-
-
-
-
 .row{
     margin: 2rem 0;
 }
@@ -384,6 +402,55 @@ li{
 
 
 /* #region Main */
+
+
+.background{
+    background-color: var(--application);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 1rem 0;
+}
+
+.get_a_demo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bt_app_store{
+    padding: 8px 50px;
+    background-color: var(--secondary);
+   
+    border-radius: 25px;
+}
+
+
+img.pt_2.phone {
+    height: 250px;
+}
+
+.logo_code{
+    padding-top: 2rem;
+    color: var(--secondary);
+    padding-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.code{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.text_code{
+    padding: 2rem 1rem 0 1rem;
+}
+
+
+
+
+
 
 .planning{
     background-color: var(--primary);
