@@ -1,10 +1,17 @@
-*{
+
+
+
+
+/* #region Common */
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root
+{
     --primary: #9792e4;
     --secondary: #0084fd;
     --light: #ffffff;
@@ -22,9 +29,13 @@ a
 
 }
 
-li{
+li
+{
     list-style: none;
 }
+
+/* #endregion Common */
+
 
 /* #region Debug */
 
@@ -649,10 +660,17 @@ img.pt_2.phone {
 #site_footer{
     background-color: var(--footer);
     padding-top: 3rem;
+    color: var(--light);
 }
 
+.text_footer{
+    padding-bottom: 3rem;
+}
 
-
+.text_footer a{
+    color: var(--primary);
+    text-decoration: underline;
+}
 
 
 
