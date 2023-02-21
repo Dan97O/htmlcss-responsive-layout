@@ -458,6 +458,10 @@ li
     border-radius: 25px;
 }
 
+.bt_app_store:hover{
+    opacity: 0.75;
+    border: 5px solid black;
+}
 
 img.pt_2.phone {
     height: 250px;
@@ -512,6 +516,10 @@ img.pt_2.phone {
     background-color: var(--primary);
     border-radius: 50%;
     color: var(--footer);
+}
+
+.btn_app:hover{
+    opacity: 0.75;
 }
 
 /* /section Planning */
@@ -578,6 +586,10 @@ img.pt_2.phone {
     border-radius: 25px;
     color: var(--light);
     margin-top: 2rem;
+}
+
+.bt_more:hover{
+    opacity: 0.9;
 }
 
 .benefit .black{
@@ -655,6 +667,13 @@ img.pt_2.phone {
     border-radius: 25px;
     font-size: 20px;
     margin: 0 -2rem;
+}
+
+.btn_large:hover{
+    background-color:  rgb(209, 209, 20);
+    color: var(--light);
+    opacity: 0.8;
+    font-size: 30px;
 }
 
 .call_to_action .text_main_bottom i{
