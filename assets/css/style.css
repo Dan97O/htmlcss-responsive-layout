@@ -595,19 +595,46 @@ img.pt_2.phone {
 }
 /* /section about */
 
+.call_to_action div{
+    color: var(--light);
+    padding: 1rem 0;
+}
 
+.call_to_action h3{
+    font-size: 35px;
+}
+.call_to_action h2{
+    font-size: 80px;
+    color: rgb(209, 209, 20);
+}
 
+.btn_large{
+    color: var(--primary);
+    padding: 1rem 2rem;
+    background-color: var(--light);
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 0 -2rem;
+}
 
+.call_to_action .text_main_bottom i{
+    font-size: 5px;
+    justify-content: center;
+    margin: 0 4px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.copyright a{
+    text-decoration: underline;
+    color: var(--light);
+}
 
-
-
-
-
-
-
-
-
+/* /section call to action */
 
 
 
