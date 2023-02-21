@@ -380,8 +380,8 @@ li
     padding: 1rem 0;
 }
 
-.image_logo{
-    height: 40px;
+.logo a:hover{
+    opacity: 0.75;
 }
 
 .link_header
@@ -410,6 +410,21 @@ li
 
 .bt_header span{
     color: var(--footer);
+}
+
+
+.bt_header:hover{
+    transition: 1s;
+    background-color: var(--footer);
+}
+
+.bt_header span:hover{
+    color: var(--light);
+}
+
+.link_header a:hover{
+    border-bottom: 1px solid black;
+    opacity: 0.75;
 }
 
 .row{
