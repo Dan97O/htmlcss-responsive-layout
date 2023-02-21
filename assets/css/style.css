@@ -1,13 +1,16 @@
 
 
 
-
 /* #region Common */
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
 }
 
 :root
@@ -466,14 +469,9 @@ img.pt_2.phone {
 /* /section Demo */
 
 
-.planning{
+#planning{
     background-color: var(--primary);
 }
-
-.planning .row{
-    margin: 2rem 5rem;
-}
-
 
 .img_planning_1{
     padding-top: 2rem;
@@ -488,6 +486,8 @@ img.pt_2.phone {
 }
 
 /* /section Planning */
+
+
 
 .testimonial{
     flex-wrap: wrap;
@@ -522,7 +522,7 @@ img.pt_2.phone {
 
 /* /section Testimonials */
 
-.benefits{
+#benefits{
     background-color: var(--primary);
 }
 
