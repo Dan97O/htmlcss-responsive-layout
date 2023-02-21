@@ -53,7 +53,7 @@ li{
 
 .debug .row{
     background-color: aqua;
-    height: 500px;
+    height: 800px;
 }
 
 .debug .col_12{
@@ -452,9 +452,7 @@ img.pt_2.phone {
     padding: 2rem 1rem 0 1rem;
 }
 
-
-
-
+/* /section Demo */
 
 
 .planning{
@@ -468,19 +466,17 @@ img.pt_2.phone {
 
 .img_planning_1{
     padding-top: 2rem;
-    width: 400px;
-
-
 }
 
 .img_planning_2{
-    width: 400px;
     margin-top: 8rem;
     background-color: var(--light);
     padding-bottom: 2rem;
     border-radius: 40px;
     margin-bottom: 4rem;
 }
+
+/* /section Planning */
 
 .testimonial{
     flex-wrap: wrap;
@@ -513,6 +509,7 @@ img.pt_2.phone {
     padding-left: 2rem;
 }
 
+/* /section Testimonials */
 
 .benefits{
     background-color: var(--primary);
@@ -547,18 +544,66 @@ img.pt_2.phone {
     margin-bottom: 2rem;
 }
 
-
-/* 
-
-code here
-
- */
+/* /section Benefits */
 
 
+.text_about p{
+    line-height: 35px;
+}
+
+.title_about{
+    color: var(--primary);
+    font-size: 35px;
+    padding: 2rem 0;
+}
 
 .call_to_action{
     background-color: var(--primary);
 }
+
+.img_about{
+    padding-top: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.image_about{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.img_about i{
+    position: absolute;
+    color: var(--primary);
+    top: 30px;
+    right: 70px;
+}
+
+.text_img{
+    line-height: 35px;
+    width: 60%;
+    color: var(--primary);
+}
+
+
+.btn_linkedin{
+    color: var(--light);
+    padding: 5px 5px;
+    background-color: var(--primary);
+    border-radius: 25px;
+    font-size: 10px;
+}
+/* /section about */
+
+
+
+
+
+
+
+
+
+
 
 
 
